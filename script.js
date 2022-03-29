@@ -88,8 +88,7 @@ function passwordC1() {
     //var PasswordC1 = askC1.value.toLowerCase()
     if (askC1.value===Cuentauno.contrasena){
         alert('Ingresando...')
-        document.getElementById("BotonC1").href="/BodyCajero.html"
-        open("BodyCajero.html","_self"); 
+        window.open("lizeth.html","_self")
     }
     else
         alert('Contraseña Incorrecta')
@@ -101,7 +100,9 @@ function passwordC2() {
 
         //var PasswordC1 = askC1.value.toLowerCase()
         if (askC2.value===Cuentados.contrasena){
-            alert('Ingresando...')}
+            alert('Ingresando...')
+            window.open("kevin.html","_self")
+        }
         else
             alert('Contraseña Incorrecta')
     
@@ -112,7 +113,9 @@ function passwordC3() {
 
     //var PasswordC3 = askC1.value.toLowerCase()
     if (askC3.value===Cuentatres.contrasena){
-        alert('Ingresando...')}
+        alert('Ingresando...')
+        window.open("ezequiel.html","_self")
+    }
     else
         alert('Contraseña Incorrecta')
 
@@ -147,7 +150,3 @@ function invisibilidadC3 (){
 
     regresar.addEventListener('click',Return)
     Consulta.addEventListener('click',Saldo)
-    
-
-
-
