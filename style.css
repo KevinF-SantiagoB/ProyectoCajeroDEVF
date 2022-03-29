@@ -1,0 +1,30 @@
+
+
+.container{
+
+    text-align: center;
+    text-decoration: darkblue;
+
+}
+.titleFormat{
+    padding: 70px;
+}
+
+
+
+.none{
+    display: none;
+}
+
+#regresar{
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+#R{
+    padding: 50px;
+}
