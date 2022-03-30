@@ -40,8 +40,6 @@ input[type=number] { -moz-appearance:textfield; }
     height: 60px;
 }
 
-
-
 #regresar {
   align-items: center;
   appearance: button;
@@ -139,7 +137,6 @@ input[type=number] { -moz-appearance:textfield; }
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  
   user-select: auto;
 }
 
