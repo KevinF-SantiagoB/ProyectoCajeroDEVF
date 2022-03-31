@@ -17,56 +17,113 @@
             <div class="row titulo">
                 <h1 class="titleFormat">BIENVENIDO</h1>
             </div>
-        <div class="row">
-            <div class="col">
             <div class="row">
-            <button class="btn  btn-outline-info"id="Cuenta1">
-                Cuenta 1 <br>
-                Nombre: Lizeth Juarez
-            </button>  
-            </div>
-            <div class="row" id ="R"> 
-                <div class="none" id="ContrasenaC1"  >
-                    <input id="askC1" placeholder="Ingresa tu clave" type="password">
-                    <button class="btn btn-primary" id="BotonC1">Ingresar</button>
+                <!-- Div principal de la cuenta 1-->
+                <div class="col">
+                    <div class="row">
+                        <button type="button" class="btn  btn-outline-info" id="Cuenta1" data-toggle="modal" data-target="#exampleModalCenter">
+                        Cuenta 1 <br>
+                        Nombre: Lizeth Juarez
+                        </button>
+                    </div>
+                    <!--Componente Modal-->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle">Hola Lizeth</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="none" id="ContrasenaC1"  >
+                                    <input id="askC1" placeholder="Ingresa tu clave" type="password">
+                                    <p class="none IncPass" id="IncorrectP">Contaseña Incorrecta</p>
+                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="BotonC1">Ingresar</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Div principal de la cuenta 2-->
+                <div class="col">
+                    <div class="row" >
+                        <button class="btn  btn-outline-info" id="Cuenta2"  class="noneC2"  data-toggle="modal" data-target="#exampleModalCenter1">
+                        Cuenta 2 <br>
+                        Nombre: Fabian
+                        </button>  
+                    </div> 
+                    <!--Componente Modal-->
+                    <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle1">Hola Kevin</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="none" id="ContrasenaC2">
+                                    <input id="askC2" placeholder="Ingresa tu clave" type="password">
+                                    <p class="none IncPass" id="IncorrectP2">Contaseña Incorrecta</p>
+                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="BotonC2">Ingresar</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Div principal de la cuenta 3-->
+                <div class="col">
+                    <div class="row" id="CointanerC3" class="CNone">
+                        <button class="btn  btn-outline-info" id="Cuenta3" data-toggle="modal" data-target="#exampleModalCenter2">
+                        Cuenta 3 <br>
+                        Nombre: Ezequiel
+                        </button>  
+                    </div>
+                    <!--Componente Modal-->
+                    <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLongTitle2">Hola Ezequiel</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="none" id="ContrasenaC3">
+                                    <input id="askC3" placeholder="Ingresa tu clave" type="password">
+                                    <p class="none IncPass" id="IncorrectP3">Contaseña Incorrecta</p>
+                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="BotonC3">Ingresar</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="row" >
-                <button class="btn  btn-outline-info"id="Cuenta2"  class="noneC2">
-                Cuenta 2 <br>
-                Nombre: Fabian
-                </button>  
-            </div> 
-            <div class="row" id ="R"> 
-                <div class="none" id="ContrasenaC2" >
-                    <input id="askC2" placeholder="Ingresa tu clave" type="password">
-                    <button class="btn btn-primary" id="BotonC2">Ingresar</button>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row" id="CointanerC3" class="CNone">
-                <button class="btn  btn-outline-info" id="Cuenta3">
-                Cuenta 3 <br>
-                Nombre: Ezequiel
-                </button>  
-            </div> 
-            <div class="row" id ="R" > 
-                <div class="none" id="ContrasenaC3" >
-                    <input id="askC3" placeholder="Ingresa tu clave" type="password">
-                    <button class="btn btn-primary" id="BotonC3">Ingresar</button>
-                </div>
-            </div>
+            <button class="none" id="regresar" >Cambiar Cuenta</button>
         </div>
     </div>
-    <button class="none" id="regresar" >Regresar</button>
-    </div>
-    </div>
-
-
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>
