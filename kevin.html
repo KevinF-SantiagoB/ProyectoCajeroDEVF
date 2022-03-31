@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"/>
+    <link href="style.css" rel="stylesheet"/>
+    <title>Cuenta Premium Lizeth</title>
 </head>
 <body>
+    <div class="container">
+        <div class="row-12">
+            <div class="row titulo">
+                <h1 class="titleFormat">OPERACIONES</h1>
+            </div>
+        <div class="row">
+            <div class="col">
+            <div class="row" >
+                <button class="btn  btn-outline-info"id="botonSaldoC1">
+                    Consultar saldo
+                </button>  
+            </div>
+            <div class="row" id ="R"> 
+                <div class="none" id="CantidadActual1" > </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" >
+                <button class="btn  btn-outline-info"id="botonIngresoC1"  >
+                Ingresar monto
+                </button>  
+            </div> 
+            <div class="row" id ="R"> 
+                <div class="none" id="ContainerIngreso" >
+                    <input id="MontoC1" placeholder="Ingresa el monto " type="number">
+                    <button class="btn btn-primary" id="botonMontoC1">Ingresar</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row" >
+                <button class="btn  btn-outline-info" id="botonRetiroC1">
+                Retirar monto
+                </button>  
+            </div> 
+            <div class="row" id ="R" > 
+                <div class="none" id="ContainerRetiro" >
+                    <input  id="RetiroC1" placeholder="Monto a retirar" type="number">
+                    <button class="btn btn-primary" id="botonMontoRetiroC1">Retirar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    </div>
+    <button class="none" id="regresar2" >Regresar</button>
+    </div>
+    <div class="position"><button  id="Logout" >Cerrar Sesion</button></div>
+
+
+
+    <script src="kevin.js"></script>
+
 </body>
 </html>
