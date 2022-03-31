@@ -37,7 +37,7 @@ var askC2 = document.getElementById('askC2') // Input
 var ContrasenaC3 = document.getElementById('ContrasenaC3')
 var BotonC3 = document.getElementById('BotonC3')
 var Cuenta3= document.getElementById('Cuenta3')//boton
-var askC3 = document.getElementById('askC2') // Input
+var askC3 = document.getElementById('askC3') // Input
 
 // REturn
 var regresar= document.getElementById('regresar')//boton
