@@ -15,16 +15,27 @@
     <div class="container">
         <div class="row-12">
             <div class="row titulo">
-                <h1 class="titleFormat">BIENVENIDO</h1>
+                <div class="col-2">
+                    <img src="https://i.pinimg.com/originals/ca/3e/56/ca3e56c1e4256b9e45a31320ee476e6c.gif" id="imgTitulo">
+                </div>
+                <div class="col-10">
+                    <h1 class="titleFormat">BIENVENIDO</br></h1>
+                    <h6 class="subtitleFormat">Selecciona tu cuenta</h6>
+                </div>
             </div>
             <div class="row">
                 <!-- Div principal de la cuenta 1-->
-                <div class="col">
+                <div class="col mainOption">
                     <div class="row">
-                        <button type="button" class="btn  btn-outline-info" id="Cuenta1" data-toggle="modal" data-target="#exampleModalCenter">
-                        Cuenta 1 <br>
-                        Nombre: Lizeth Juarez
-                        </button>
+                        <div class="col">
+                            <img class="imgPerfil" src="https://i.pinimg.com/originals/7c/a2/52/7ca25224848822ec24b3c6c8351481cd.gif">
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn  btn-outline-info" id="Cuenta1" data-toggle="modal" data-target="#exampleModalCenter">
+                            Cuenta 1 <br>
+                            Nombre: Lizeth Juarez
+                            </button>
+                        </div>
                     </div>
                     <!--Componente Modal-->
                     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -40,7 +51,6 @@
                                 <div class="none" id="ContrasenaC1"  >
                                     <input id="askC1" placeholder="Ingresa tu clave" type="password">
                                     <p class="none IncPass" id="IncorrectP">Contaseña Incorrecta</p>
-                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -52,12 +62,17 @@
                     </div>
                 </div>
                 <!-- Div principal de la cuenta 2-->
-                <div class="col">
+                <div class="col mainOption">
                     <div class="row" >
-                        <button class="btn  btn-outline-info" id="Cuenta2"  class="noneC2"  data-toggle="modal" data-target="#exampleModalCenter1">
-                        Cuenta 2 <br>
-                        Nombre: Fabian
-                        </button>  
+                        <div class="col">
+                            <img class="imgPerfil" src="https://cdn.dribbble.com/users/1787459/screenshots/5430312/character.gif">
+                        </div>
+                        <div class="col">
+                            <button class="btn  btn-outline-info" id="Cuenta2"  class="noneC2"  data-toggle="modal" data-target="#exampleModalCenter1">
+                                Cuenta 2 <br>
+                                Nombre: Fabian
+                                </button>  
+                        </div>
                     </div> 
                     <!--Componente Modal-->
                     <div class="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -73,7 +88,6 @@
                                 <div class="none" id="ContrasenaC2">
                                     <input id="askC2" placeholder="Ingresa tu clave" type="password">
                                     <p class="none IncPass" id="IncorrectP2">Contaseña Incorrecta</p>
-                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -85,12 +99,17 @@
                     </div>
                 </div>
                 <!-- Div principal de la cuenta 3-->
-                <div class="col">
-                    <div class="row" id="CointanerC3" class="CNone">
-                        <button class="btn  btn-outline-info" id="Cuenta3" data-toggle="modal" data-target="#exampleModalCenter2">
-                        Cuenta 3 <br>
-                        Nombre: Ezequiel
-                        </button>  
+                <div class="col mainOption">
+                    <div class="row">
+                        <div class="col">
+                            <img class="imgPerfil" src="https://cdn.sharechat.com/17905584_1584717315686.gif">
+                        </div>
+                        <div class="col">
+                            <button class="btn  btn-outline-info" id="Cuenta3" data-toggle="modal" data-target="#exampleModalCenter2">
+                            Cuenta 3 <br>
+                            Nombre: Ezequiel
+                            </button> 
+                        </div> 
                     </div>
                     <!--Componente Modal-->
                     <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -106,7 +125,6 @@
                                 <div class="none" id="ContrasenaC3">
                                     <input id="askC3" placeholder="Ingresa tu clave" type="password">
                                     <p class="none IncPass" id="IncorrectP3">Contaseña Incorrecta</p>
-                                    <!--<button class="btn btn-primary" id="BotonC1">Ingresar</button>-->
                                 </div>
                             </div>
                             <div class="modal-footer">
