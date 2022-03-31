@@ -1,10 +1,10 @@
-var Cuentauno={
-    nombre:'Lizeth', 
-    saldo:800, 
-    contrasena:'123'
+var Cuentatres={
+    nombre:'Ezequiel', 
+    saldo:100, 
+    contrasena:'789'
 }
 
-//Parámetros Cuenta 1 
+//Parámetros Cuenta 3
 var ContainerIngreso = document.getElementById('ContainerIngreso')
 var ContainerSaldo = document.getElementById('ContainerSaldo')
 var ContainerRetiro = document.getElementById('ContainerRetiro')
@@ -30,7 +30,7 @@ function consultaSaldoC1(){
     CantidadActual1.classList.remove('none')
     ContainerIngreso.classList.add('none')
     ContainerRetiro.classList.add('none')
-    CantidadActual1.innerHTML ='Saldo Actual: $'+ String(Cuentauno.saldo) +' MXN'
+    CantidadActual1.innerHTML ='Saldo Actual: $'+ String(Cuentatres.saldo) +' MXN'
     regresar2.classList.remove('none')
 }
 
@@ -42,12 +42,12 @@ function ingresarSaldoC1(){
     ContainerIngreso.classList.remove('none')
     var Dinero = parseInt(MontoC1.value,10)
     var Max = 990
-    var Monto= Cuentauno.saldo+Dinero
+    var Monto= Cuentatres.saldo+Dinero
     if(Monto>Max)
     { alert('LA CANTIDAD INGRESADA SUPERA EL LIMITE DE TU CUENTA')}
     else 
-    {  Cuentauno.saldo=Monto
-        alert('Tu saldo actual es: '+Cuentauno.saldo )
+    {  Cuentatres.saldo=Monto
+        alert('Tu saldo actual es: '+Cuentatres.saldo )
     }
 }
 
@@ -65,12 +65,12 @@ function retirarSaldoC1(){
     ContainerRetiro.classList.remove('none')
     var DineroRetiro = parseInt(RetiroC1.value,10)
     var SaldoMin = 10
-    var MontoRetiro= Cuentauno.saldo-DineroRetiro
+    var MontoRetiro= Cuentatres.saldo-DineroRetiro
     if(MontoRetiro<SaldoMin)
     { alert('LA CANTIDAD A RETIRAR ES MAYOR AL PERMITIDO')}
     else 
-    {  Cuentauno.saldo=MontoRetiro
-        alert('Tu saldo actual es: '+Cuentauno.saldo )
+    {  Cuentatres.saldo=MontoRetiro
+        alert('Tu saldo actual es: '+Cuentatres.saldo )
     }
 }
 
