@@ -5,7 +5,6 @@ var Cuentados={
 }
 
 
-//Parámetros Cuenta 3
 var ContainerIngreso = document.getElementById('ContainerIngreso')
 var ContainerSaldo = document.getElementById('ContainerSaldo')
 var ContainerRetiro = document.getElementById('ContainerRetiro')
@@ -66,12 +65,12 @@ function retirarSaldoC1(){
     ContainerRetiro.classList.remove('none')
     var DineroRetiro = parseInt(RetiroC1.value,10)
     var SaldoMin = 10
-    var MontoRetiro= Cuentatres.saldo-DineroRetiro
+    var MontoRetiro= Cuentados.saldo-DineroRetiro
     if(MontoRetiro<SaldoMin)
     { alert('LA CANTIDAD A RETIRAR ES MAYOR AL PERMITIDO')}
     else 
-    {  Cuentatres.saldo=MontoRetiro
-        alert('Tu saldo actual es: '+Cuentatres.saldo )
+    {  Cuentados.saldo=MontoRetiro
+        alert('Tu saldo actual es: '+Cuentados.saldo )
     }
 }
 
