@@ -17,7 +17,12 @@ input[type=number] { -moz-appearance:textfield; }
     padding: 70px;
 }
 
-
+.IncPass{
+  margin-top: 5px;
+  text-align: center;
+  font-style: italic;
+  color: red;
+}
 
 .none{
     display: none;
