@@ -7,14 +7,45 @@ input[type=number]::-webkit-outer-spin-button {
     }
 input[type=number] { -moz-appearance:textfield; }
 
-.container{
+body {
+  background-color: #BDD5EA;
+}
 
+.titleFormat{
+  padding-top: 20px;
+  height: 80px;
+  color: antiquewhite;
+  background-color: #0C4767;
+  padding-right: 200px;
+}
+
+.subtitleFormat {
+  height: 20px;
+  padding-right: 200px;
+}
+
+.titulo {
+  background-color: #0C4767;
+  color: antiquewhite;
+}
+
+#imgTitulo {
+  height: 120px;
+}
+
+.imgPerfil {
+  height: 200px;
+  border-radius: 90px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.container{
     text-align: center;
     text-decoration: darkblue;
+    height: 570px;
+    width: 100%;
+    background-color: white;
 
-}
-.titleFormat{
-    padding: 70px;
 }
 
 .IncPass{
@@ -171,4 +202,11 @@ input[type=number] { -moz-appearance:textfield; }
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+}
+
+.mainOption {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 20px;
 }
