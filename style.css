@@ -11,16 +11,49 @@ body {
   background-color: #BDD5EA;
 }
 
+#H{
+  height: 615px;
+  background-color: #FFFFFF;
+}
+
+
 .titleFormat{
-  padding-top: 20px;
-  height: 80px;
+  padding-top:45px;
+  height: 100px;
   color: antiquewhite;
   background-color: #0C4767;
   padding-right: 200px;
 }
 
+.titleFormatL{
+  color: antiquewhite;
+  background-color: #0C4767;
+  padding-top: 20px;
+  text-align: center;
+  
+}
+#head{
+  height: 10px ;
+}
+
+.col{
+  padding: 20px;
+}
+
+.titleFormat1{
+  padding-top: 10px;
+  height: 50px;
+  padding-left: 39%;
+  color: antiquewhite;
+  background-color: #0C4767;
+
+}
+
+
+
 .subtitleFormat {
   height: 20px;
+  padding-top:10px ;
   padding-right: 200px;
 }
 
@@ -28,9 +61,20 @@ body {
   background-color: #0C4767;
   color: antiquewhite;
 }
+#header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
 
 #imgTitulo {
-  height: 120px;
+display:flex;
+justify-content: baseline;
+align-self: center;
+height: 180px;
+width: 180px;
 }
 
 .imgPerfil {
@@ -42,7 +86,7 @@ body {
 .container{
     text-align: center;
     text-decoration: darkblue;
-    height: 570px;
+    height: 720px;
     width: 100%;
     background-color: white;
 
@@ -73,8 +117,17 @@ body {
 }
 
 #botonRetiroC1{
-    height: 60px;
+    height: 50px;
 }
+
+#Contenido{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  background-color:transparent ;
+}
+
 
 #regresar {
   align-items: center;
@@ -113,16 +166,14 @@ body {
 
 
 #regresar2 {
-  align-items: center;
   appearance: button;
-  background-color: #FFFFFF;
+  background-color: #042863;
   border: 2px solid #5bc0de;
   border-radius: 8px;
   border-style: none;
   box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
   box-sizing: border-box;
-  color: #5bc0de;
-  position: relative;
+  color: white;
   cursor: pointer;
   font-family: "RM Neue",sans-serif;
   font-size: 100%;
@@ -135,21 +186,21 @@ body {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
 }
 
 #regresar2:active {
-  background-color: #5bc0de;
+  background-color: #042863;
 }
 
 #regresar2:hover {
   color: black;
-  background-color: #5bc0de;
 }
 
 
-#Logout {
+#Logo {
   appearance: button;
-  background-color: #1899D6;
+  background-color:transparent;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
@@ -174,28 +225,37 @@ body {
   vertical-align: middle;
   white-space: nowrap;
   user-select: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
-#Logout::after {
+#Logo::after {
   background-clip: padding-box;
-  background-color: #1CB0F6;
+  background-color: #02151d;
   border: solid transparent;
   border-radius: 16px;
   border-width: 0 0 4px;
   bottom: -4px;
   content: "";
   left: 0;
-  position: absolute;
+  
   right: 0;
   top: 0;
   z-index: -1;
 }
 
 
-#Logout:hover:not(:disabled) {
-  filter: brightness(1.1);
+#Logo:hover:not(:disabled) {
+  filter: brightness(1.4);
 }
 
+h5{
+  color: #042863;
+}
+#color{
+  color: #042863;
+}
 
 
 .position{
