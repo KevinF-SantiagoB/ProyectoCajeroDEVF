@@ -99,7 +99,7 @@ function ingresarInvisibilidad(){
 
 
 function CerrarSesion(){
-    alert("Cerrando sesión...")
+
     window.open("index.html","_self")
 }
 
